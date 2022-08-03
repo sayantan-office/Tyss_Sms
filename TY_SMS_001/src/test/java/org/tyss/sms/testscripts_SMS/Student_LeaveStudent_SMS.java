@@ -9,7 +9,7 @@ import org.tyss.sms.pageRepository.LeaveStudent;
 public class Student_LeaveStudent_SMS extends BaseClass_SMS {
 	@Test
 	public void student_LeaveStudent_SMS() {
-
+//hi
 		smsLoginPage.setSMSLoginPage(Username,Password).getStudentTab().getAllStudentTab();
 
 		leaveStudent

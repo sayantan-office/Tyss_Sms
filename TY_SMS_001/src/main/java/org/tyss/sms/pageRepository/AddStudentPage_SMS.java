@@ -15,7 +15,7 @@ import org.tyss.sms.genericUtility.WebDriverUtility_SMS;
 
 public class AddStudentPage_SMS {
 	//Student Details
-
+//commonDetails
 	@FindBy(xpath = "//input[@id='index_number']")
 	private WebElement IndexNumber;
 	@FindBy(xpath = "//input[@id='full_name']")
